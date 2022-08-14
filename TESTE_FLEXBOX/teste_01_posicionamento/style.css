@@ -1,0 +1,9 @@
+.pai {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.filho {
+  background-color: blueviolet;
+}
