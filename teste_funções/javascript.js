@@ -22,7 +22,9 @@ botao.addEventListener('click', function () {
   resultado.textContent = calculaTabuada(numero.value, tabuada.value);
 
 
+
 });
+
 
 
 

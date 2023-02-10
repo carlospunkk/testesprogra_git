@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //funcao recebe o objeto como parametro
+      function minhafuncao(objeto) {
+        objeto.make = 'Toyota'
+        objeto.model = 'Fiat'
+      }
+
+      // objeto
+      var meucarro = {
+        make: 'Honda',
+        model: 'Accord',
+        ano: 1998
+      }
+
+      var x,
+        //variavel x recebe o objeto acessado meucarro.make e seu valor contido
+        x = meucarro.make
+
+      //chamada de função
+      minhafuncao(meucarro)
+
+      console.log(
+        'dentro do objeto tem a propriedade make com o seu valor : ' + x
+      )
+      console.log(
+        'dentro da função tem a propriedade make com o seu valor : ' +
+          meucarro.make,
+        meucarro.model
+      )
+    </script>
+  </body>
+</html>
